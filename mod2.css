@@ -1,0 +1,59 @@
+@charset "utf-8";
+
+/*
+Author: Rosa Meneses
+        Date: 04.10.24
+        Filename: mod2.css
+*/
+
+body {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(0, 128, 2); /* Maintained your specified background color */
+}
+
+table {
+    width: 600px;
+    margin: auto;
+    background-color: lightgreen; /* Maintained your specified table background color */
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+img {
+    width: 200px;
+    height: 150px;
+    border: 1px solid black;
+    padding: 10px;
+    margin-top: 15px;
+}
+
+.image-container {
+    border: 3px solid green;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: blue;
+}
+
+#header1 {
+    margin: 0;
+    padding: 20px;
+    color: white; /* Ensured header text color is white */
+    text-align: center;
+}
+
+.caption {
+    text-align: center;
+    background-color: lightgreen; /* Maintained your specified table background color */
+    color: white; /* Ensured caption text color is white */
+    padding: 20px;
+    font-size: 1.2em;
+}
